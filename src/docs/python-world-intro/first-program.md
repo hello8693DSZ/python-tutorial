@@ -3,6 +3,7 @@ title: 第一个 Python 程序
 tag: 
   - Python
   - Python 世界初窥
+author: unDefFtr
 ---
 
 在上一章中，我们介绍了 Python 的交互模式。交互模式主要用作单行代码的执行，而如果想将多行代码依次执行，可以创建程序文件。
