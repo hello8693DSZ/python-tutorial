@@ -34,9 +34,11 @@ Python 官方推荐并维护的解释器是 CPython。CPython 目前支持 Windo
 
 ![Python 安装器第三页](image/install-env/windows-installer-page3.png)
 
-当你看到下方的页面时，恭喜你，你已成功将 Python 解释器安装至你的电脑。
+在完成页中，点击【Disable path length limit】。
 
 ![Python 安装完成](image/install-env/windows-installer-finish.png)
+
+恭喜你，你已成功将 Python 解释器安装至你的电脑。
 
 ## macOS 系统
 
