@@ -3,7 +3,9 @@ title: 安装 Python 环境
 tag: 
   - Python
   - Python 世界初窥
-author: Hello8693, unDefFtr
+author: 
+  - Hello8693
+  - unDefFtr
 ---
 
 Python 是一种解释型编程语言。这种类型的编程语言，会将代码一句一句直接执行，不需要像编译语言（Compiled language）一样，经过编译器预先编译为机器代码，之后再执行。Python 程序运行的时候，需要利用 Python 解释器，动态地将代码逐句解释（interpret）为机器代码，然后再执行。
