@@ -11,6 +11,7 @@ export default sidebar({
         "intro-charm.md",
         "install-env.md",
         "interactive-mode.md",
+        "first-program.md",
       ],
     },
     {
