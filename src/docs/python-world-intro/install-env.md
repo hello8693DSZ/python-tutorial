@@ -63,6 +63,6 @@ Python 存在于大多数发行版的软件包仓库中。以下对几种常见�
 
 若在上方没有找到你的系统，可以尝试手动编译 CPython。
 
-前往 [Python 源代码下载页]，点击【Latest Python3 Release】并点击 Gzipped source tarball 下载最新版本的 Python 源代码。
+前往 [Python 源代码下载页](https://www.python.org/downloads/source/)，点击【Latest Python3 Release】并点击 Gzipped source tarball 下载最新版本的 Python 源代码。
 
 使用 `tar xvzf [filename]` 解压压缩包。进入解压后的文件夹，使用 `./configure` 进行编译前的配置。配置过程会很快完成。完成后，使用 `sudo make install` 编译并安装。
