@@ -52,4 +52,4 @@ print('Hello, World!')
 
 同样可以被用于输出 `Hello, World!`。
 
-本篇仅对 `print` 函数作基础了解。若需了解详情请前往 [输入与输出](/docs/python-basic-blocks/input-output.md) 一章。
+本篇仅对 `print` 函数作基础了解。若需了解详情请前往 [输入与输出](../python-basic-blocks/input-output.md) 一章。
