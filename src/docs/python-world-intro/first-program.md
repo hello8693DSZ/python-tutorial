@@ -52,4 +52,18 @@ print('Hello, World!')
 
 同样可以被用于输出 `Hello, World!`。
 
-本篇仅对 `print` 函数作基础了解。若需了解详情请前往 [输入与输出](/docs/python-basic-blocks/input-output.md) 一章。
+此外，运行保存到 `.py` 文件中的程序与直接在交互模式下运行代码有所不同。在交互模式中，解释器会把每一行 Python 代码的结果自动打印出来，但是直接运行则不会。这意味着，如果你直接在文件中写入：
+
+```python
+114+514
+```
+
+时，并不会直接输出结果。你需要使用 `print` 函数将需要的结果输出。即：
+
+```python
+print(114+514)
+```
+
+则会正常输出结果。
+
+本篇仅对 `print` 函数作基础了解。若需了解详情请前往 [输入与输出](../python-basic-blocks/input-output.md) 一章。

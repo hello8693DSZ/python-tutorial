@@ -34,9 +34,11 @@ Python 官方推荐并维护的解释器是 CPython。CPython 目前支持 Windo
 
 ![Python 安装器第三页](image/install-env/windows-installer-page3.png)
 
-当你看到下方的页面时，恭喜你，你已成功将 Python 解释器安装至你的电脑。
+在完成页中，点击【Disable path length limit】。
 
 ![Python 安装完成](image/install-env/windows-installer-finish.png)
+
+恭喜你，你已成功将 Python 解释器安装至你的电脑。
 
 ## macOS 系统
 
@@ -48,19 +50,41 @@ Python 存在于大多数发行版的软件包仓库中。以下对几种常见�
 
 ### Debian/Ubuntu/Deepin/UOS 等 Debian 系发行版
 
-使用 `sudo apt update; sudo apt install python-is-python3` 安装。
+使用
+```bash
+sudo apt update; sudo apt install python-is-python3
+```
+安装。
 
 ### Arch Linux
 
-使用 `sudo pacman -Syy python` 安装。
+使用
+```bash
+sudo pacman -Syy python
+```
+安装。
 
 ### NixOS
 
-使用 `nix-env -iA nixos.python313`、将 `nixos.python313` 写入 `/etc/nixos/configuration.nix` 中的 `enviroment.systemPackages` 部分或使用 Flake 安装。
+使用
+```bash
+nix-env -iA nixos.python313
+```
+或在 `/etc/nixos/configuration.nix`中写入以下内容：
+```nix
+environment.systemPackages = [
+  pkgs.python313
+]
+```
+或使用 Flake 安装。
 
 ### Fedora
 
-使用 `sudo dnf upgrade --refresh; sudo dng install python3` 安装。
+使用
+```bash
+sudo dnf upgrade --refresh; sudo dng install python3
+```
+安装。
 
 ## 自行编译
 

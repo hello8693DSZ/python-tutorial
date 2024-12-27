@@ -1,6 +1,9 @@
 ---
 title: 输入与输出
-tag: Python, Python 基础构建块, 输入与输出
+tag: 
+- Python
+- Python 基础构建块
+author: unDefFtr
 ---
 
 输入输出是一门编程语言中重要的组成部分。没有了基本的输入输出，程序就失去了处理外部信息的能力。Python 拥有丰富的输入输出方法，可用于各种数据的输入与输出。
